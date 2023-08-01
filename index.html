@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rama Logistics</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="vendor/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/icon.jpg">
+
+
+</head>
+
+<body>
+  <navbar>
+
+    <div class="logo">
+      <img src="assets/img/logo.jpg" alt="Rama Logistics">
+    </div>
+    <a class="menu"><i class="fa-solid fa-bars"></i></a>
+    <div class="nav-icons">
+      <a href="#"><i class="fa-sharp fa-solid fa-phone"> +970 59-8303001</i></a>
+      <a href="#"><i class="fa-solid fa-fax"> +97022966446</i></a>
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="shipping.html">International Shipping</a></li>
+      <li><a href="customs.html">Customs Clearance</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+  </navbar>
+  <content>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="assets/img/Slide1.jpg" alt="slider 1" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/img/Slide5.jpg" alt="slider 2" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/img/Slide6.jpg" alt="slider 3" />
+        <p>International Shipping </p>
+
+      </div>
+    </div>
+
+    <section class="homepage">
+      <h2>Rama Logistics - Supply Chain And Customs Clearance</h2>
+      <div class="location"><i class="fa-sharp fa-solid fa-location-dot location"></i>
+        <p>Palestine - Ramallah </p>
+      </div>
+      <p>Provides you with the most professional personal service, With you at all times around the world.
+      </p>
+      <p> Your personal shipping and customs services company -<span> Rama Logistics!</span></p>
+    </section>
+
+    <section class="aboutus" id="about">
+      <h2><span> About Us!</span></h2>
+      <div class="about">
+        <p><span> Rama Logistics</span> is a logistics and transportation company that provides a wide range of
+          services, including international shipping, air freight, sea freight, customs clearance, warehousing, and
+          distribution.</p>
+        <p><span> Rama Logistics</span> is known for its reliable and efficient services, as well as its dedication to
+          customer satisfaction. Our company is well-versed in the logistics industry and can provide tailored solutions
+          to meet the specific needs of their clients. Whether you need to ship goods locally or internationally, Rama
+          Logistic can handle all aspects of the process, from pick-up to delivery. </p>
+        <p><span> Rama Logistics</span> is a trusted and reliable partner for businesses looking for comprehensive
+          logistics solutions in Palestine and beyond.</p>
+      </div>
+    </section>
+
+    <section class="Items">
+      <div class="container">
+        <div class="row">
+
+          <div class="item">
+            <div class="div-img"><img src="assets/img/item1.jpg" alt="Image 1" /></div>
+            <div class="caption">Import/export of cargo to/from all over the world.</div>
+          </div>
+
+          <div class="item">
+            <div class="div-img"><img src="assets/img/item3.jpg" alt="Image 2" /></div>
+            <div class="caption">International Shipping and Freight</div>
+          </div>
+
+
+          <div class="item">
+            <div class="div-img"><img src="assets/img/item6.jpg" alt="Image 3" /></div>
+            <div class="caption">Relocation</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer"><i class="fa-regular fa-copyright"></i>
+        <p>Rama Logistics</p>
+      </div>
+
+    </footer>
+
+
+  </content>
+
+  <script src="assets/JS.js"></script>
+  
+  <script>
+    const menuIcon = document.querySelector('.menu');
+    const navMenu = document.querySelector('ul');
+
+    menuIcon.addEventListener('click', () => {
+      navMenu.classList.toggle('show-menu');
+    });
+  </script>
+</body>
+
+</html>

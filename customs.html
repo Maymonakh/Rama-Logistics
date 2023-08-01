@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rama Logistics</title>
+  <link rel="stylesheet" href="assets/css/style2.css" />
+  <link rel="stylesheet" href="vendor/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/icon.jpg">
+
+</head>
+
+<body>
+  <navbar>
+
+    <div class="logo">
+      <img src="assets/img/logo.jpg" alt="Rama Logistics">
+    </div>
+    <a class="menu"><i class="fa-solid fa-bars"></i></a>
+    <div class="nav-icons">
+      <a href="#"><i class="fa-sharp fa-solid fa-phone"> +970 59-8303001</i></a>
+      <a href="#"><i class="fa-solid fa-fax"> +97022966446</i></a>
+    </div>
+
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="index.html#about">About Us</a></li>
+      <li><a href="shipping.html">International Shipping</a></li>
+      <li><a href="customs.html">Customs Clearance</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+  </navbar>
+  <content>
+
+    <section class="homepage">
+      <h2>Rama Logistics - Supply Chain And Customs Clearance</h2>
+      <div class="location">
+        <i class="fa-sharp fa-solid fa-location-dot location"></i>
+        <p>Palestine - Ramallah </p>
+      </div>
+    </section>
+
+    <section class="contentt">
+      <h2><span> Customs Clearance</span></h2>
+      <div class="about">
+        <p><span> Rama Logistics :</span> experts with vast experience and in-depth knowledge. We offer unconventional
+           solutions, working for professional, fast,and reliable customs clearance. Our intelligent and accurate 
+           classification saves costs and connects seamlessly with major customs terminals.
+            We handle direct deliveries 24/7, ensuring efficient shipmenthandling.
+        </p>
+    </section>
+
+    <footer>
+      <div class="footer"><i class="fa-regular fa-copyright"></i>
+        <p>Rama Logistics</p>
+      </div>
+
+    </footer>
+
+
+  </content>
+
+  <script src="assets/JS.js"></script>
+  <script>
+    const menuIcon = document.querySelector('.menu');
+    const navMenu = document.querySelector('ul');
+
+    menuIcon.addEventListener('click', () => {
+      navMenu.classList.toggle('show-menu');
+    });
+  </script>
+</body>
+
+</html>
